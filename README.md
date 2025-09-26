@@ -37,11 +37,12 @@ Bu proje, Akbank Derin Öğrenme Bootcamp kapsamında, Convolutional Neural Netw
 
 ## Elde Edilen Sonuçlar
 Model, `Intel Image Classification` veri seti üzerinde test edildiğinde aşağıdaki başarımları elde etmiştir:
-*   **En İyi Doğrulama Başarımı:** Yaklaşık **[Kaggle Notebook'unuzdaki en yüksek val_accuracy değeri]%**
-*   **Test Doğrulama Başarımı:** Yaklaşık **[Kaggle Notebook'unuzdaki test_accuracy değeri]%**
-*   **Test Kaybı:** **[Kaggle Notebook'unuzdaki test_loss değeri]**
+*   **En İyi Doğrulama Başarımı:** Yaklaşık **%XX**
+*   **Test Doğrulama Başarımı:** Yaklaşık **%XX**
+*   **Test Kaybı:** **XX**
 *   **Overfitting/Underfitting Durumu:** `Data Augmentation` ve `Dropout` teknikleri sayesinde modelin overfitting'e karşı dirençli olduğu gözlemlenmiştir. Eğitim ve doğrulama kaybı grafikleri istikrarlı bir yakınsama göstermiştir.
 *   **Sınıflandırma Performansı:** `Confusion Matrix` ve `Classification Report` sonuçlarına göre, model bazı sınıfları diğerlerine göre daha iyi sınıflandırabilmiştir. Özellikle "Forest" ve "Glacier" gibi sınıflarda yüksek F1-Score'lar elde edilirken, "Mountain" ve "Buildings" gibi benzer özelliklere sahip sınıflar arasında bazı karışıklıklar gözlemlenmiştir.
 *   **Grad-CAM Yorumları:** Grad-CAM görselleştirmeleri, modelin sınıflandırma yaparken görüntünün anlamlı bölgelerine (örneğin, bir binanın silueti veya bir dağın zirvesi) odaklandığını doğrulamıştır.
 
 ## Kaggle Notebook Linki
+https://www.kaggle.com/code/umutilta/akbank-derin-renme-projesi
